@@ -1,0 +1,210 @@
+/* body css */
+body {
+    background: #77a276;
+    margin: auto;
+    font-family: "Times New Roman";
+    color: #06120c;
+}
+
+/* header/nav css */
+
+header {
+    background-color: #123524;
+    border-bottom-style: solid;
+    border-width: 0.2vw;
+    border-color: #06120c;
+}
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+}
+nav img {
+    background-color: #628e61;
+    border-style: solid;
+    border-width: 0.6vw;
+    border-color: #628e61;
+    border-radius: 25%; 
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 1.1rem;
+    color: #a1deb3;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+nav a:hover {
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+/* main css */
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-width: 0.2vw;
+    border-color: #06120c;
+}
+    /* div 1 showcase */
+    .displaypic {
+        margin: 5%;
+        margin-top: 2%;
+        flex: 2;
+    }
+    h1 {
+        font-family: "Times New Roman";
+        font-variant: small-caps;
+        font-size: 3rem;
+        margin-bottom: 6%;
+    }
+    .displaypic img {
+        max-width: 100%;
+        height: auto;
+        border-style: solid;
+        border-width: 0.2vw;
+        border-color: #06120c;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+
+    /* div 2 summary */
+    .displaysummary {
+        margin: 3%;
+        flex: 2; 
+        font-family: "Times New Roman";
+    }  
+    
+    #Price {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .italic {
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    .orderbutton {
+        text-align: center;
+        background-color: #123524;
+        padding: 3%;
+        width: 15vw;
+        margin: auto;
+        border-radius: 0.8vw;
+
+    }
+
+    .orderbutton:hover {
+        background-color: #16422d;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .orderhere {
+        text-decoration: none;
+        color: #a1deb3;
+    }
+
+    /* div 3 procon */
+    .description {
+        display: flex;
+        align-items: baseline;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .procon{
+        margin-left: 10%;
+        padding: 1% 5% 1% 3%;
+        background-color: #628e61;
+        box-shadow: 0.4vw 0.4vw 0.4vw 0vw #4f754f;
+        flex: 1;
+    }
+    .procon h3 {
+        font-variant: small-caps;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .procon p {
+        font-size: 1.2rem;
+    }
+    .summary{
+        margin: 5%;
+        flex: 3;
+    }
+
+    #sumtitle {
+        font-variant: small-caps;
+        font-size: 2rem;
+    }
+
+    /* div 4 description */
+    #foryou {
+        text-align: center;
+        padding: 5%;
+        padding-bottom: 0%;
+        font-size: 3rem;
+        font-family: "Times New Roman";
+        font-variant: small-caps;
+    }
+    .flexdisp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexdisp div {
+        margin: 3%;
+        margin-top: 1%;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .flexdisp img {
+        max-width: 100%;
+        height: auto;
+    }
+    .flexdisp h3 {
+        width: 11vw;
+        font-size: 1.5rem;
+    }
+    .flexdisp p {
+        width: 11vw;
+        text-align: left;
+        font-size: 1.1rem;
+    }
+    
+
+
+/* footer css */
+
+footer {
+    margin: auto;
+    background-color: #628e61;
+}
+
+.footer {
+    text-align: center;
+    padding: 3%;
+    background-color: #123524;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #a1deb3;
+    text-align: center;
+    margin: 1%;
+}
+
+.footer a:hover {
+    font-style: oblique;
+    text-decoration: underline;
+}
+
